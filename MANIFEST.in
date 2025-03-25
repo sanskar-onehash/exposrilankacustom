@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include exposrilankacustom *.css
+recursive-include exposrilankacustom *.csv
+recursive-include exposrilankacustom *.html
+recursive-include exposrilankacustom *.ico
+recursive-include exposrilankacustom *.js
+recursive-include exposrilankacustom *.json
+recursive-include exposrilankacustom *.md
+recursive-include exposrilankacustom *.png
+recursive-include exposrilankacustom *.py
+recursive-include exposrilankacustom *.svg
+recursive-include exposrilankacustom *.txt
+recursive-exclude exposrilankacustom *.pyc
